@@ -1,0 +1,1404 @@
+[
+  {
+    "text": "What's the balance on that account?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.6756574511528015,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How much money do I owe on my credit cards",
+    "entities": [
+      {
+        "start": 30,
+        "end": 42,
+        "value": "credit cards",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.9247878193855286,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What credit accounts do I have",
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "value": "credit accounts",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.809485137462616,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Show me my credit accounts",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "credit accounts",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.7819098234176636,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's my credit all balance",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "credit all",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.4302442967891693,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's my emblem card balance",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "emblem",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 10,
+        "end": 21,
+        "confidence_entity": 0.5734108686447144,
+        "value": "emblem card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's the balance on the credit all account",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "credit all",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.7873330116271973,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.5742322206497192,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Show me my iron bank balance",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "iron bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.39963024854660034,
+        "value": "bank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's my justice bank balance",
+    "entities": [
+      {
+        "start": 10,
+        "end": 22,
+        "value": "justice bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.7727516889572144,
+        "value": "justice",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's the balance on the justice bank account",
+    "entities": [
+      {
+        "start": 26,
+        "end": 38,
+        "value": "justice bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.7668712735176086,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "credit_card",
+        "start": 26,
+        "end": 38,
+        "confidence_entity": 0.6129990220069885,
+        "value": "justice bank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what's my embelm's card balance?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "embelm",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.7246913909912109,
+        "value": "embelm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.46265608072280884,
+        "value": "card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I should check my credit card balance first",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "credit",
+        "entity": "account_type"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "first",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 18,
+        "end": 37,
+        "confidence_entity": 0.741674542427063,
+        "value": "credit card balance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "check my credit card balance",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "credit",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 9,
+        "end": 28,
+        "confidence_entity": 0.5715444684028625,
+        "value": "credit card balance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Target",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Target",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "current balance",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "current balance",
+        "entity": "payment_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.701073408126831,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "credit all card",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "credit all",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.5118094086647034,
+        "value": "credit all card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "iron bank card",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "iron bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.6638067960739136,
+        "value": "bank card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "emblem",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "emblem",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "iron bank",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "iron bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.6864053010940552,
+        "value": "bank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "credit all account",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "credit all",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.432455450296402,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "iron bank credit card",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "iron bank",
+        "entity": "credit_card"
+      },
+      {
+        "start": 10,
+        "end": 21,
+        "value": "credit card",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.8637902140617371,
+        "value": "bank",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 10,
+        "end": 21,
+        "confidence_entity": 0.8093236684799194,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my credit all credit card",
+    "entities": [
+      {
+        "start": 3,
+        "end": 13,
+        "value": "credit all",
+        "entity": "credit_card"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "value": "credit card",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.5140700340270996,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 14,
+        "end": 25,
+        "confidence_entity": 0.6053202748298645,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my credit all card",
+    "entities": [
+      {
+        "start": 3,
+        "end": 13,
+        "value": "credit all",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 3,
+        "end": 18,
+        "confidence_entity": 0.5317416191101074,
+        "value": "credit all card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my iron bank card",
+    "entities": [
+      {
+        "start": 3,
+        "end": 12,
+        "value": "iron bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.6434950232505798,
+        "value": "bank card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "towards my iron bank card",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "iron bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.5625910758972168,
+        "value": "bank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "towards my justice bank card",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "justice bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 11,
+        "end": 28,
+        "confidence_entity": 0.5574703216552734,
+        "value": "justice bank card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ok, so Iron Bank and then Credit All",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "Iron Bank",
+        "entity": "credit_card"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "value": "Credit All",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.47828182578086853,
+        "value": "Bank",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.49662551283836365,
+        "value": "Credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to pay my iron bank bill",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "iron bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.4984971880912781,
+        "value": "bank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to pay my visa bill",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.5923332571983337,
+        "value": "visa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want to pay off my credit all credit card",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "credit all",
+        "entity": "credit_card"
+      },
+      {
+        "start": 32,
+        "end": 43,
+        "value": "credit card",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.6890565156936646,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 32,
+        "end": 43,
+        "confidence_entity": 0.48866304755210876,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please schedule  a payment towards my credit card for April 12th",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 38,
+        "end": 49,
+        "confidence_entity": 0.8553096055984497,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What did I spend at Legoland last year?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "Legoland",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what's my current balance?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.5621086359024048,
+        "value": "current",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's my credit balance",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "credit",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.4960097372531891,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Whats the balance on my credit account",
+    "entities": [
+      {
+        "start": 24,
+        "end": 38,
+        "value": "credit account",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.4658183157444,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.572279691696167,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's my credit account",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "credit account",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.4839634299278259,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what's my emblm credit card balance?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "emblm",
+        "entity": "credit_card"
+      },
+      {
+        "start": 16,
+        "end": 27,
+        "value": "credit card",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 16,
+        "end": 27,
+        "confidence_entity": 0.5058735609054565,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what's my emblm account balance?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "emblm",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "check my credit card balance first",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "credit",
+        "entity": "account_type"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "first",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.5736569166183472,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "whats my current balance",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "current balance",
+        "entity": "payment_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.6001900434494019,
+        "value": "current",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "at amazon",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "amazon",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "at target",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "target",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "target",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "target",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Amazon",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Amazon",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "minimum balance",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "minimum balance",
+        "entity": "payment_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.5267049074172974,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to pay the minimum balance",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "minimum balance",
+        "entity": "payment_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.4208080768585205,
+        "value": "minimum",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my minimum balance",
+    "entities": [
+      {
+        "start": 3,
+        "end": 18,
+        "value": "minimum balance",
+        "entity": "payment_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.38881930708885193,
+        "value": "minimum",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "emblem card",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "emblem",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.4213407039642334,
+        "value": "emblem card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "justice bank card",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "justice bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.5332849025726318,
+        "value": "justice bank card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "credit all",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "credit all",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.5255818367004395,
+        "value": "credit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "emblem account",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "emblem",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "my emblem card",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "emblem",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 3,
+        "end": 14,
+        "confidence_entity": 0.6652705073356628,
+        "value": "emblem card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my justice bank card",
+    "entities": [
+      {
+        "start": 3,
+        "end": 15,
+        "value": "justice bank",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit_card",
+        "start": 3,
+        "end": 20,
+        "confidence_entity": 0.46067675948143005,
+        "value": "justice bank card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to pay the minimum balance on my emblem credit card today",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "minimum balance",
+        "entity": "payment_amount"
+      },
+      {
+        "start": 40,
+        "end": 46,
+        "value": "emblem",
+        "entity": "credit_card"
+      },
+      {
+        "start": 47,
+        "end": 58,
+        "value": "credit card",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.5361186265945435,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "credit_card",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.919479489326477,
+        "value": "emblem",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "account_type",
+        "start": 47,
+        "end": 58,
+        "confidence_entity": 0.6599435210227966,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mastercard",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "mastercard",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "visa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "visa",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "my rasa account",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "rasa",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "My Visa account",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "Visa",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "My visa",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "visa",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like to pay the minimum balance on my embelm card",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "value": "minimum balance",
+        "entity": "payment_amount"
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "value": "embelm",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.585172176361084,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "credit_card",
+        "start": 46,
+        "end": 57,
+        "confidence_entity": 0.5593637228012085,
+        "value": "embelm card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to pay my card",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.5476657152175903,
+        "value": "card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need to pay off my emblm credit card",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "emblm",
+        "entity": "credit_card"
+      },
+      {
+        "start": 27,
+        "end": 38,
+        "value": "credit card",
+        "entity": "account_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 27,
+        "end": 38,
+        "confidence_entity": 0.7644554376602173,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can I schedule a payment towards my credit card for tomorrow?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "account_type",
+        "start": 36,
+        "end": 47,
+        "confidence_entity": 0.6839399933815002,
+        "value": "credit card",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Pay off my minimum balance please",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "minimum balance",
+        "entity": "payment_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "payment_amount",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.46436068415641785,
+        "value": "balance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would also like to pay my visa bill",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "visa",
+        "entity": "credit_card"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how much did I spend at Target this week?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "Target",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is my typical spending at Amazon?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "Amazon",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to search my transactions with amazon",
+    "entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "amazon",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can i seem my transactions with target",
+    "entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "target",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What did I spend at Legoland last month?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "Legoland",
+        "entity": "vendor_name"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "vendor_name": {
+    "precision": 1.0,
+    "recall": 0.2631578947368421,
+    "f1-score": 0.4166666666666667,
+    "support": 19,
+    "confused_with": {}
+  },
+  "credit_card": {
+    "precision": 0.9444444444444444,
+    "recall": 0.5425531914893617,
+    "f1-score": 0.689189189189189,
+    "support": 94,
+    "confused_with": {
+      "account_type": 11
+    }
+  },
+  "account_type": {
+    "precision": 0.7764705882352941,
+    "recall": 0.7674418604651163,
+    "f1-score": 0.7719298245614037,
+    "support": 86,
+    "confused_with": {
+      "credit_card": 1
+    }
+  },
+  "payment_amount": {
+    "precision": 1.0,
+    "recall": 0.4117647058823529,
+    "f1-score": 0.5833333333333334,
+    "support": 34,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8607594936708861,
+    "recall": 0.5836909871244635,
+    "f1-score": 0.6956521739130435,
+    "support": 233
+  },
+  "macro avg": {
+    "precision": 0.9302287581699347,
+    "recall": 0.4962294131434183,
+    "f1-score": 0.6152797534376482,
+    "support": 233
+  },
+  "weighted avg": {
+    "precision": 0.8950826110129316,
+    "recall": 0.5836909871244635,
+    "f1-score": 0.6820590072792467,
+    "support": 233
+  }
+}

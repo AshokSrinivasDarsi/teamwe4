@@ -1,0 +1,1026 @@
+[
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.18109464645385742
+    }
+  },
+  {
+    "text": "yess please",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.12489338964223862
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "human_handoff",
+      "confidence": 0.14471013844013214
+    }
+  },
+  {
+    "text": "yeah",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.15493899583816528
+    }
+  },
+  {
+    "text": "yes please",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.15242134034633636
+    }
+  },
+  {
+    "text": "Ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.18885958194732666
+    }
+  },
+  {
+    "text": "yes...",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.12994830310344696
+    }
+  },
+  {
+    "text": "Is there a charge",
+    "intent": "ask_transfer_charge",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.12804216146469116
+    }
+  },
+  {
+    "text": "will i be charged for a transaction?",
+    "intent": "ask_transfer_charge",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.28654876351356506
+    }
+  },
+  {
+    "text": "is there a transfer fee",
+    "intent": "ask_transfer_charge",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.19256696105003357
+    }
+  },
+  {
+    "text": "how much is the transfer fee",
+    "intent": "ask_transfer_charge",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.3447640836238861
+    }
+  },
+  {
+    "text": "How much money do I owe on my credit cards",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "search_transactions",
+      "confidence": 0.16980615258216858
+    }
+  },
+  {
+    "text": "I should check my credit card balance first",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.20757827162742615
+    }
+  },
+  {
+    "text": "check my credit card balance",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.1820530742406845
+    }
+  },
+  {
+    "text": "check my credit card balance first",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.16492699086666107
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.1308683604001999
+    }
+  },
+  {
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.14536960422992706
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.19325733184814453
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.14007388055324554
+    }
+  },
+  {
+    "text": "no thanks",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.14831648766994476
+    }
+  },
+  {
+    "text": "i'm done",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.12454879283905029
+    }
+  },
+  {
+    "text": "quit",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.17956788837909698
+    }
+  },
+  {
+    "text": "stop",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.15280219912528992
+    }
+  },
+  {
+    "text": "GOODBYE",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.1973901093006134
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.1320568323135376
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.16572389006614685
+    }
+  },
+  {
+    "text": "HEY",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.1320568323135376
+    }
+  },
+  {
+    "text": "hello are you still there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.15547685325145721
+    }
+  },
+  {
+    "text": "HI",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.15924519300460815
+    }
+  },
+  {
+    "text": "Hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.1320568323135376
+    }
+  },
+  {
+    "text": "hi!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.15924519300460815
+    }
+  },
+  {
+    "text": "hello there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.1677776575088501
+    }
+  },
+  {
+    "text": "Hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.16572389006614685
+    }
+  },
+  {
+    "text": "5000",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.16351895034313202
+    }
+  },
+  {
+    "text": "the last two weeks",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "check_earnings",
+      "confidence": 0.13566438853740692
+    }
+  },
+  {
+    "text": "the current balance",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.18978488445281982
+    }
+  },
+  {
+    "text": "my current balance",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.22658401727676392
+    }
+  },
+  {
+    "text": "Please schedule it for the first of next month",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.2695748805999756
+    }
+  },
+  {
+    "text": "A friend.",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.18831080198287964
+    }
+  },
+  {
+    "text": "i want to see my transaction history",
+    "intent": "search_transactions",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.29390984773635864
+    }
+  },
+  {
+    "text": "thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.16536343097686768
+    }
+  },
+  {
+    "text": "okay thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.1396222561597824
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.1853218972682953
+    }
+  },
+  {
+    "text": "I want to transfer $100 to Bob",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.2701472342014313
+    }
+  },
+  {
+    "text": "I need to transfer money to a friend",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.30470091104507446
+    }
+  },
+  {
+    "text": "can I transfer money to my mom",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.24015098810195923
+    }
+  },
+  {
+    "text": "transfer money",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.14874973893165588
+    }
+  },
+  {
+    "text": "I want to transfer $100 to John",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.303648978471756
+    }
+  },
+  {
+    "text": "i want to transfer $400 to Akela",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.2895633280277252
+    }
+  },
+  {
+    "text": "I want to pay Paula Handy",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.4904065430164337
+    }
+  },
+  {
+    "text": "pay Evan Oslo",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.1972591131925583
+    }
+  },
+  {
+    "text": "pay Lisa please",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.22444598376750946
+    }
+  },
+  {
+    "text": "can I transfer money to Kyle Gardner?",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.20943482220172882
+    }
+  },
+  {
+    "text": "pay Lisa $60",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.19617542624473572
+    }
+  },
+  {
+    "text": "pay Emma",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.17148903012275696
+    }
+  },
+  {
+    "text": "i want to transfer $100 to my daughter",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.3211063742637634
+    }
+  },
+  {
+    "text": "i want to transfer money please",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.2801283001899719
+    }
+  },
+  {
+    "text": "Show me my list of recipients",
+    "intent": "check_recipients",
+    "intent_prediction": {
+      "name": "check_earnings",
+      "confidence": 0.1611679494380951
+    }
+  },
+  {
+    "text": "Show the recipient list",
+    "intent": "check_recipients",
+    "intent_prediction": {
+      "name": "check_earnings",
+      "confidence": 0.14999331533908844
+    }
+  },
+  {
+    "text": "who can I transfer money to?",
+    "intent": "check_recipients",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.21235372126102448
+    }
+  },
+  {
+    "text": "what can I ask you?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.1577429622411728
+    }
+  },
+  {
+    "text": "what do you do?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.1382344663143158
+    }
+  },
+  {
+    "text": "what can you help me with?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.20231899619102478
+    }
+  },
+  {
+    "text": "help, what do you do",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.18021434545516968
+    }
+  },
+  {
+    "text": "how can you help me",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.18092595040798187
+    }
+  },
+  {
+    "text": "can I speak to an agent",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "search_transactions",
+      "confidence": 0.16730552911758423
+    }
+  },
+  {
+    "text": "real human",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.1955079734325409
+    }
+  },
+  {
+    "text": "give me a person please",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.16063439846038818
+    }
+  },
+  {
+    "text": "transfer to a human",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "search_transactions",
+      "confidence": 0.12591241300106049
+    }
+  },
+  {
+    "text": "Please give me to a human",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.16029536724090576
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.21862132847309113
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.28736838698387146
+    }
+  },
+  {
+    "text": "yup",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.18360167741775513
+    }
+  },
+  {
+    "text": "yes plz",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.21953962743282318
+    }
+  },
+  {
+    "text": "Sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.20158186554908752
+    }
+  },
+  {
+    "text": "sweet",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.24955496191978455
+    }
+  },
+  {
+    "text": "cool,",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.1935681402683258
+    }
+  },
+  {
+    "text": "Will I be charged for transferring money",
+    "intent": "ask_transfer_charge",
+    "intent_prediction": {
+      "name": "transfer_money",
+      "confidence": 0.25945305824279785
+    }
+  },
+  {
+    "text": "do transfers cost something?",
+    "intent": "ask_transfer_charge",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.17521196603775024
+    }
+  },
+  {
+    "text": "do xfers cost something?",
+    "intent": "ask_transfer_charge",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.1447458267211914
+    }
+  },
+  {
+    "text": "How much money have i spent lately>",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.24274495244026184
+    }
+  },
+  {
+    "text": "Hello, I would like to know how much money is in much money is in my account",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.19960124790668488
+    }
+  },
+  {
+    "text": "hi, whats my account bal please",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "ask_transfer_charge",
+      "confidence": 0.23627334833145142
+    }
+  },
+  {
+    "text": "Yeah, I like coffee \ud83d\udc40 But how much money do I have?",
+    "intent": "check_balance",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.3924730718135834
+    }
+  },
+  {
+    "text": "How much money went into my account last month?",
+    "intent": "check_earnings",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.27069732546806335
+    }
+  },
+  {
+    "text": "What did I earn last month?",
+    "intent": "check_earnings",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.19132427871227264
+    }
+  },
+  {
+    "text": "check deposits for last week",
+    "intent": "check_earnings",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.16239742934703827
+    }
+  },
+  {
+    "text": "how much money have I earned?",
+    "intent": "check_earnings",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.20150256156921387
+    }
+  },
+  {
+    "text": "what did I earn?",
+    "intent": "check_earnings",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.17256809771060944
+    }
+  },
+  {
+    "text": "How much have i earned?",
+    "intent": "check_earnings",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.15915149450302124
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.13016781210899353
+    }
+  },
+  {
+    "text": "nope",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.17460811138153076
+    }
+  },
+  {
+    "text": "I dunno",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.12845391035079956
+    }
+  },
+  {
+    "text": "Nothing!",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.22599047422409058
+    }
+  },
+  {
+    "text": "nevermind",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.20430098474025726
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.196046844124794
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.17302334308624268
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.22718307375907898
+    }
+  },
+  {
+    "text": "Adios",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.200304314494133
+    }
+  },
+  {
+    "text": "BYEE",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.24544186890125275
+    }
+  },
+  {
+    "text": "I want to pay the current balance",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.24985802173614502
+    }
+  },
+  {
+    "text": "I want to pay the minimum balance",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.30877286195755005
+    }
+  },
+  {
+    "text": "credit all account",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.21999910473823547
+    }
+  },
+  {
+    "text": "I want to pay the minimum balance on my emblem credit card today",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.5154091119766235
+    }
+  },
+  {
+    "text": "Ok, so Iron Bank and then Credit All",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.17198501527309418
+    }
+  },
+  {
+    "text": "I guess it is. Since it's so much, let's pay off my credit",
+    "intent": "pay_cc",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.2535701096057892
+    }
+  },
+  {
+    "text": "what is my typical spending at Amazon?",
+    "intent": "search_transactions",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.23912939429283142
+    }
+  },
+  {
+    "text": "what did i spend last month?",
+    "intent": "search_transactions",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.19269587099552155
+    }
+  },
+  {
+    "text": "What did I spend at Legoland last month?",
+    "intent": "search_transactions",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.20603999495506287
+    }
+  },
+  {
+    "text": "How much did I spend at Burger King last month?",
+    "intent": "search_transactions",
+    "intent_prediction": {
+      "name": "check_recipients",
+      "confidence": 0.21789522469043732
+    }
+  },
+  {
+    "text": "what places have I spent money?",
+    "intent": "search_transactions",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.2244461327791214
+    }
+  },
+  {
+    "text": "and thats all thank you and good bye",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "ask_transfer_charge",
+      "confidence": 0.1609431952238083
+    }
+  },
+  {
+    "text": "Thanks!",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.18842944502830505
+    }
+  },
+  {
+    "text": "I want to pay John",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.2563801109790802
+    }
+  },
+  {
+    "text": "I want to pay someone",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.3059956729412079
+    }
+  },
+  {
+    "text": "can I pay someone",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.1813996583223343
+    }
+  },
+  {
+    "text": "I want to pay Bill",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.36630645394325256
+    }
+  },
+  {
+    "text": "pay my friend",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.2693600654602051
+    }
+  },
+  {
+    "text": "Ok pay Emma",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.24400939047336578
+    }
+  },
+  {
+    "text": "I need to pay a friend.",
+    "intent": "transfer_money",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.2768019437789917
+    }
+  },
+  {
+    "text": "Can we please start over?",
+    "intent": "check_recipients",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.15637004375457764
+    }
+  },
+  {
+    "text": "help",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.24556240439414978
+    }
+  },
+  {
+    "text": "what can you do?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.22896723449230194
+    }
+  },
+  {
+    "text": "how do I use this",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.13941356539726257
+    }
+  },
+  {
+    "text": "What are the things that you can do?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "check_balance",
+      "confidence": 0.2706657648086548
+    }
+  },
+  {
+    "text": "I want a human",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.15971411764621735
+    }
+  },
+  {
+    "text": "chat with a live agent",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "ask_transfer_charge",
+      "confidence": 0.19315871596336365
+    }
+  },
+  {
+    "text": "i want to talk to a human",
+    "intent": "human_handoff",
+    "intent_prediction": {
+      "name": "pay_cc",
+      "confidence": 0.18258686363697052
+    }
+  }
+]
