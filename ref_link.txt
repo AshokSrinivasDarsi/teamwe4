@@ -1,5 +1,0 @@
-How to Use BERT in Rasa N --> https://blog.rasa.com/how-to-benchmark-bert/
-Rasa installation --> windows: https://www.youtube.com/watch?v=4ewIABo0OkU&list=PLq1y92ZZG8yPiH6Czr18cI7YQjXcEMqzJ&index=6  mac: https://www.youtube.com/watch?v=fqzsE70Rvr0
-Rasa NLU & Core understanding --> https://mc.ai/conversational-ai-chatbot-using-rasa-nlu-rasa-core-how-dialogue-handling-with-rasa-core-can-use/  &  https://medium.com/zenofai/create-a-chatbot-using-rasa-e5570f2dc0f & https://medium.com/@BhashkarKunal/conversational-ai-chatbot-using-deep-learning-how-bi-directional-lstm-machine-reading-38dc5cf5a5a3 
-Compressing BERT for faster prediction" by Sam Sucik. Link:  https://blog.rasa.com/compressing-bert-for-faster-prediction-2/
-HFTransformersNLP (built on Hugging Face 🤗 Transformers). Link: https://rasa.com/docs/rasa/components#hftransformersnlp
